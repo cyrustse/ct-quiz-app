@@ -163,5 +163,407 @@
     "options": ["childs", "children", "childes", "childrens"],
     "answer": 1,
     "explanation": "The plural form of 'child' is an irregular noun: 'children'."
+  },
+  {
+    "id": 21,
+    "category": "Question Words",
+    "question": "_______ is your English teacher? - Miss Wong.",
+    "options": ["What", "Where", "Who", "When"],
+    "answer": 2,
+    "explanation": "We use 'Who' to ask about a person."
+  },
+  {
+    "id": 22,
+    "category": "Question Words",
+    "question": "_______ do you live? - I live in Shatin.",
+    "options": ["Who", "Where", "Why", "What"],
+    "answer": 1,
+    "explanation": "We use 'Where' to ask about a place or location."
+  },
+  {
+    "id": 23,
+    "category": "Prepositions of Time",
+    "question": "My birthday is _______ July.",
+    "options": ["on", "at", "in", "to"],
+    "answer": 2,
+    "explanation": "We use the preposition 'in' before months."
+  },
+  {
+    "id": 24,
+    "category": "Prepositions of Time",
+    "question": "We go to bed _______ night.",
+    "options": ["in", "on", "at", "under"],
+    "answer": 2,
+    "explanation": "We use 'at' with the time phrase 'night'."
+  },
+  {
+    "id": 25,
+    "category": "Possessive Adjectives",
+    "question": "This is my brother. _______ name is Ben.",
+    "options": ["His", "Her", "My", "Your"],
+    "answer": 0,
+    "explanation": "'His' is the possessive adjective used for a male person."
+  },
+  {
+    "id": 26,
+    "category": "Object Pronouns",
+    "question": "Mum is calling you. Please listen to _______.",
+    "options": ["him", "her", "them", "it"],
+    "answer": 1,
+    "explanation": "'Her' is the object pronoun for a female person ('Mum')."
+  },
+  {
+    "id": 27,
+    "category": "Plural Nouns",
+    "question": "There are three _______ on the table.",
+    "options": ["box", "boxes", "boxs", "boxing"],
+    "answer": 1,
+    "explanation": "For nouns ending in '-x', we add '-es' to form the plural."
+  },
+  {
+    "id": 28,
+    "category": "Plural Nouns (Irregular)",
+    "question": "The farmer has ten _______ on his farm.",
+    "options": ["sheeps", "sheep", "sheepes", "sheepses"],
+    "answer": 1,
+    "explanation": "The plural form of 'sheep' remains 'sheep'."
+  },
+  {
+    "id": 29,
+    "category": "Adjectives (Feelings)",
+    "question": "I lost my favourite toy. I feel very _______.",
+    "options": ["happy", "sad", "excited", "hungry"],
+    "answer": 1,
+    "explanation": "Losing a toy makes someone feel 'sad'."
+  },
+  {
+    "id": 30,
+    "category": "Adjectives (Sensory)",
+    "question": "The lemon tastes _______.",
+    "options": ["sweet", "sour", "salty", "spicy"],
+    "answer": 1,
+    "explanation": "Lemons have a 'sour' taste."
+  },
+  {
+    "id": 31,
+    "category": "Modal Verbs",
+    "question": "You _______ run in the classroom. It is dangerous.",
+    "options": ["must", "can", "must not", "should"],
+    "answer": 2,
+    "explanation": "'Must not' expresses prohibition or rules for safety."
+  },
+  {
+    "id": 32,
+    "category": "Modal Verbs",
+    "question": "_______ I have a glass of water, please?",
+    "options": ["Must", "May", "Should", "Am"],
+    "answer": 1,
+    "explanation": "We use 'May' to ask for permission politely."
+  },
+  {
+    "id": 33,
+    "category": "Conjunctions",
+    "question": "Do you want juice _______ milk?",
+    "options": ["and", "but", "or", "so"],
+    "answer": 2,
+    "explanation": "We use 'or' to present choices in a question."
+  },
+  {
+    "id": 34,
+    "category": "Conjunctions",
+    "question": "He was tired _______ he went to sleep early.",
+    "options": ["but", "so", "or", "because"],
+    "answer": 1,
+    "explanation": "We use 'so' to show the result of something."
+  },
+  {
+    "id": 35,
+    "category": "Vocabulary (Jobs)",
+    "question": "A _______ puts out fires.",
+    "options": ["doctor", "fireman", "teacher", "baker"],
+    "answer": 1,
+    "explanation": "A fireman's job is to extinguish fires."
+  },
+  {
+    "id": 36,
+    "category": "Vocabulary (Jobs)",
+    "question": "A _______ helps sick people in the hospital.",
+    "options": ["pilot", "police officer", "nurse", "cook"],
+    "answer": 2,
+    "explanation": "Nurses take care of sick people."
+  },
+  {
+    "id": 37,
+    "category": "Vocabulary (Places)",
+    "question": "We buy books at the _______.",
+    "options": ["bookshop", "bakery", "park", "swimming pool"],
+    "answer": 0,
+    "explanation": "A bookshop is a place where books are sold."
+  },
+  {
+    "id": 38,
+    "category": "Vocabulary (Places)",
+    "question": "We can see wild animals at the _______.",
+    "options": ["cinema", "zoo", "post office", "bank"],
+    "answer": 1,
+    "explanation": "Animals are kept in a zoo for people to visit."
+  },
+  {
+    "id": 39,
+    "category": "Vocabulary (Food)",
+    "question": "Rabbits like to eat _______.",
+    "options": ["carrots", "fish", "meat", "cheese"],
+    "answer": 0,
+    "explanation": "Carrots are a common food associated with rabbits."
+  },
+  {
+    "id": 40,
+    "category": "Vocabulary (Clothes)",
+    "question": "We wear a _______ when it is cold.",
+    "options": ["coat", "shorts", "swimsuit", "t-shirt"],
+    "answer": 0,
+    "explanation": "A coat helps keep us warm in cold weather."
+  },
+  {
+    "id": 41,
+    "category": "Simple Present Tense",
+    "question": "The sun _______ in the east.",
+    "options": ["rises", "rise", "rising", "rised"],
+    "answer": 0,
+    "explanation": "We use Simple Present Tense (third-person singular 'rises') for universal facts."
+  },
+  {
+    "id": 42,
+    "category": "Simple Present Tense (Negative)",
+    "question": "They _______ like playing football.",
+    "options": ["does not", "don't", "is not", "are not"],
+    "answer": 1,
+    "explanation": "For plural subject 'They', we use 'don't' (do not) to make negative sentences."
+  },
+  {
+    "id": 43,
+    "category": "Present Continuous Tense",
+    "question": "Listen! The baby _______.",
+    "options": ["cry", "is crying", "are crying", "cries"],
+    "answer": 1,
+    "explanation": "'Listen!' indicates something happening now. 'The baby' takes 'is crying'."
+  },
+  {
+    "id": 44,
+    "category": "Present Continuous Tense",
+    "question": "What are you doing? - I _______ my homework.",
+    "options": ["am doing", "do", "doing", "is doing"],
+    "answer": 0,
+    "explanation": "Questions in Present Continuous ('are you doing') are answered with 'am doing'."
+  },
+  {
+    "id": 45,
+    "category": "Articles (a / an)",
+    "question": "I saw _______ owl in the tree.",
+    "options": ["a", "an", "the", "two"],
+    "answer": 1,
+    "explanation": "We use 'an' before words beginning with a vowel sound ('owl')."
+  },
+  {
+    "id": 46,
+    "category": "Articles (a / an)",
+    "question": "He wants to buy _______ yellow pencil.",
+    "options": ["a", "an", "some", "any"],
+    "answer": 0,
+    "explanation": "We use 'a' before words beginning with a consonant sound ('yellow')."
+  },
+  {
+    "id": 47,
+    "category": "Quantifiers",
+    "question": "Is there _______ milk in the fridge?",
+    "options": ["some", "any", "many", "few"],
+    "answer": 1,
+    "explanation": "We usually use 'any' in questions with uncountable nouns."
+  },
+  {
+    "id": 48,
+    "category": "Quantifiers",
+    "question": "There are _______ apples on the tree.",
+    "options": ["much", "a little", "a lot of", "any"],
+    "answer": 2,
+    "explanation": "'A lot of' can be used with plural countable nouns like 'apples'."
+  },
+  {
+    "id": 49,
+    "category": "Pronouns",
+    "question": "My parents are helpful. _______ always help the neighbours.",
+    "options": ["We", "You", "They", "He"],
+    "answer": 2,
+    "explanation": "'They' refers to third-person plural subjects ('My parents')."
+  },
+  {
+    "id": 50,
+    "category": "Pronouns",
+    "question": "This is Peter and I. _______ are best friends.",
+    "options": ["They", "We", "He", "You"],
+    "answer": 1,
+    "explanation": "When referring to another person and oneself ('Peter and I'), we use 'We'."
+  },
+  {
+    "id": 51,
+    "category": "Adjectives (Comparison Base)",
+    "question": "An elephant is _______ than a monkey.",
+    "options": ["bigger", "big", "biggest", "more big"],
+    "answer": 0,
+    "explanation": "When comparing two things with 'than', we add '-er' to short adjectives."
+  },
+  {
+    "id": 52,
+    "category": "Adjectives (Comparison Base)",
+    "question": "A giraffe is _______ than a goat.",
+    "options": ["taller", "tall", "tallest", "more tall"],
+    "answer": 0,
+    "explanation": "Comparative form of 'tall' is 'taller'."
+  },
+  {
+    "id": 53,
+    "category": "Imperatives",
+    "question": "_______ the door, please. It is cold outside.",
+    "options": ["Close", "Closes", "Closing", "Closed"],
+    "answer": 0,
+    "explanation": "Imperative sentences use the base form of the verb at the beginning."
+  },
+  {
+    "id": 54,
+    "category": "Imperatives (Negative)",
+    "question": "_______ touch the wet paint!",
+    "options": ["Not", "Don't", "No", "Aren't"],
+    "answer": 1,
+    "explanation": "Negative imperatives start with 'Don't' followed by the verb."
+  },
+  {
+    "id": 55,
+    "category": "Action Verbs",
+    "question": "Fish can _______ in the water.",
+    "options": ["fly", "walk", "swim", "jump"],
+    "answer": 2,
+    "explanation": "Fish move in water by swimming."
+  },
+  {
+    "id": 56,
+    "category": "Action Verbs",
+    "question": "Kites can _______ high in the sky.",
+    "options": ["fly", "run", "swim", "climb"],
+    "answer": 0,
+    "explanation": "Kites move in the air by flying."
+  },
+  {
+    "id": 57,
+    "category": "Prepositions of Place",
+    "question": "The park is _______ the school and the library.",
+    "options": ["between", "in", "under", "on"],
+    "answer": 0,
+    "explanation": "We use 'between' when something is situated in the middle of two locations."
+  },
+  {
+    "id": 58,
+    "category": "Prepositions of Place",
+    "question": "Stand _______ me so I can see you.",
+    "options": ["behind", "in front of", "under", "inside"],
+    "answer": 1,
+    "explanation": "'In front of' means situated ahead of someone."
+  },
+  {
+    "id": 59,
+    "category": "Vocabulary (Time & Calendar)",
+    "question": "There are seven days in a _______.",
+    "options": ["month", "year", "week", "day"],
+    "answer": 2,
+    "explanation": "A week consists of seven days."
+  },
+  {
+    "id": 60,
+    "category": "Vocabulary (Time & Calendar)",
+    "question": "The month after May is _______.",
+    "options": ["April", "June", "July", "August"],
+    "answer": 1,
+    "explanation": "June comes directly after May."
+  },
+  {
+    "id": 61,
+    "category": "Vocabulary (Shapes)",
+    "question": "A coin is _______.",
+    "options": ["square", "round", "triangle", "star"],
+    "answer": 1,
+    "explanation": "Most coins have a circular / round shape."
+  },
+  {
+    "id": 62,
+    "category": "Vocabulary (School Subjects)",
+    "question": "We learn numbers and counting in _______ class.",
+    "options": ["Music", "Maths", "Art", "PE"],
+    "answer": 1,
+    "explanation": "Maths is the subject where students learn numbers and calculations."
+  },
+  {
+    "id": 63,
+    "category": "Vocabulary (Hobbies)",
+    "question": "I like to _______ songs in my free time.",
+    "options": ["sing", "draw", "read", "ride"],
+    "answer": 0,
+    "explanation": "We 'sing' songs."
+  },
+  {
+    "id": 64,
+    "category": "Vocabulary (Hobbies)",
+    "question": "Tom likes to _______ a bicycle on Sundays.",
+    "options": ["play", "ride", "fly", "drive"],
+    "answer": 1,
+    "explanation": "The verb used for bicycles is 'ride'."
+  },
+  {
+    "id": 65,
+    "category": "Question Words",
+    "question": "_______ pencils are there in the pencil case? - Five.",
+    "options": ["How much", "How many", "How old", "How long"],
+    "answer": 1,
+    "explanation": "We use 'How many' to ask about the quantity of countable objects."
+  },
+  {
+    "id": 66,
+    "category": "Question Words",
+    "question": "_______ old are you? - I am seven years old.",
+    "options": ["How", "What", "When", "Where"],
+    "answer": 0,
+    "explanation": "We use 'How old' to ask about someone's age."
+  },
+  {
+    "id": 67,
+    "category": "Demonstratives",
+    "question": "This pencil in my hand is short, but _______ pencil over there is long.",
+    "options": ["this", "that", "these", "those"],
+    "answer": 1,
+    "explanation": "'That' is used for a single object far away from the speaker."
+  },
+  {
+    "id": 68,
+    "category": "Demonstratives",
+    "question": "_______ books here on my desk are mine.",
+    "options": ["These", "Those", "That", "This"],
+    "answer": 0,
+    "explanation": "'These' is used for plural objects close to the speaker."
+  },
+  {
+    "id": 69,
+    "category": "Possessive 's",
+    "question": "This is my _______ car. He drives it to work.",
+    "options": ["father", "father's", "fathers'", "fathers"],
+    "answer": 1,
+    "explanation": "'Father's' shows that the car belongs to the father."
+  },
+  {
+    "id": 70,
+    "category": "Simple Present Tense (Be Verb)",
+    "question": "My friends _______ very friendly.",
+    "options": ["is", "are", "am", "be"],
+    "answer": 1,
+    "explanation": "The plural noun 'My friends' pairs with the verb 'are'."
   }
 ]
+
+
