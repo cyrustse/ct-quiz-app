@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "category": "Prepositions of Place",
+    "question": "Choose the correct preposition: The cat is sleeping _______ the bed.",
+    "options": ["on", "under", "at", "in"],
+    "answer": 0,
+    "explanation": "We use 'on' to show that something is resting on the surface of another object."
+  },
+  {
+    "id": 2,
+    "category": "Simple Present Tense",
+    "question": "Complete the sentence: Tim _______ his teeth every morning.",
+    "options": ["brush", "brushes", "brushing", "brushed"],
+    "answer": 1,
+    "explanation": "For singular subjects like 'Tim' in the Simple Present Tense, we add '-es' to verbs ending in '-sh'."
+  },
+  {
+    "id": 3,
+    "category": "Possessive 's",
+    "question": "Which sentence is correct?",
+    "options": [
+      "This is Marys' book.",
+      "This is Mary's book.",
+      "This is book's Mary.",
+      "This is Mary is book."
+    ],
+    "answer": 1,
+    "explanation": "We add ''s' after a singular name (Mary) to show ownership."
+  },
+  {
+    "id": 4,
+    "category": "Questions & Answers",
+    "question": "Answer the question: 'Do you like apples?'",
+    "options": ["Yes, I do.", "Yes, I am.", "No, I not.", "Yes, I like."],
+    "answer": 0,
+    "explanation": "Questions starting with 'Do you...?' are answered with 'Yes, I do.' or 'No, I don't.'"
+  },
+  {
+    "id": 5,
+    "category": "There is / There are",
+    "question": "Choose the correct word: There _______ many students in the classroom.",
+    "options": ["is", "are", "am", "be"],
+    "answer": 1,
+    "explanation": "We use 'There are' with plural nouns like 'many students'."
+  },
+  {
+    "id": 6,
+    "category": "Present Continuous Tense",
+    "question": "Fill in the blank: Look! The birds _______ in the sky.",
+    "options": ["fly", "are flying", "is flying", "flies"],
+    "answer": 1,
+    "explanation": "The word 'Look!' shows an action happening now. We use 'are flying' for plural subject 'birds'."
+  },
+  {
+    "id": 7,
+    "category": "Vocabulary (Places in the Street)",
+    "question": "Which of these is a place in the street?",
+    "options": ["Bus stop", "Kitchen", "Bed", "Elephant"],
+    "answer": 0,
+    "explanation": "A bus stop is a public facility located on the street."
+  },
+  {
+    "id": 8,
+    "category": "Quantifiers & Nouns",
+    "question": "Complete the sentence: I want to buy a _______ of bread.",
+    "options": ["loaf", "cup", "glass", "box"],
+    "answer": 0,
+    "explanation": "The quantifier 'a loaf of' is used to measure bread."
+  },
+  {
+    "id": 9,
+    "category": "Vocabulary (Animal Sounds)",
+    "question": "Identify the correct animal sound: A dog _______.",
+    "options": ["meows", "barks", "chirps", "roars"],
+    "answer": 1,
+    "explanation": "The sound a dog makes is called a 'bark'."
+  },
+  {
+    "id": 10,
+    "category": "Opposites",
+    "question": "Choose the opposite word: The elephant is big, but the mouse is _______.",
+    "options": ["small", "tall", "heavy", "long"],
+    "answer": 0,
+    "explanation": "'Small' is the exact opposite adjective of 'big'."
+  },
+  {
+    "id": 11,
+    "category": "Pronouns",
+    "question": "Choose the correct pronoun: Jenny is my classmate. _______ is very kind.",
+    "options": ["He", "She", "It", "They"],
+    "answer": 1,
+    "explanation": "We use 'She' to refer to a girl or female person like Jenny."
+  },
+  {
+    "id": 12,
+    "category": "Demonstratives",
+    "question": "Look at those apples over there! _______ apples look delicious.",
+    "options": ["This", "That", "These", "Those"],
+    "answer": 3,
+    "explanation": "We use 'Those' for plural nouns (apples) that are far away from the speaker."
+  },
+  {
+    "id": 13,
+    "category": "Imperatives",
+    "question": "What should the teacher say in class? '_______ to the teacher carefully.'",
+    "options": ["Listen", "Listens", "Listening", "Listened"],
+    "answer": 0,
+    "explanation": "Imperative sentences (commands/instructions) start with the base form of the verb."
+  },
+  {
+    "id": 14,
+    "category": "Modal Verbs",
+    "question": "Fill in the blank: Birds _______ fly, but they cannot swim.",
+    "options": ["can", "cannot", "must not", "are"],
+    "answer": 0,
+    "explanation": "'Can' is used to express ability (birds have the ability to fly)."
+  },
+  {
+    "id": 15,
+    "category": "Vocabulary (Family)",
+    "question": "Your father's brother is your _______.",
+    "options": ["uncle", "aunt", "cousin", "grandfather"],
+    "answer": 0,
+    "explanation": "The brother of your father or mother is called your 'uncle'."
+  },
+  {
+    "id": 16,
+    "category": "Adjectives",
+    "question": "It is raining outside. It is a _______ day.",
+    "options": ["sunny", "rainy", "windy", "cloudy"],
+    "answer": 1,
+    "explanation": "When it rains, we describe the weather as 'rainy'."
+  },
+  {
+    "id": 17,
+    "category": "Conjunctions",
+    "question": "I like ice cream _______ I do not like cake.",
+    "options": ["and", "but", "so", "or"],
+    "answer": 1,
+    "explanation": "We use 'but' to connect two contrasting ideas."
+  },
+  {
+    "id": 18,
+    "category": "Time & Daily Routines",
+    "question": "I eat breakfast in the _______.",
+    "options": ["morning", "afternoon", "evening", "night"],
+    "answer": 0,
+    "explanation": "Breakfast is the first meal of the day, eaten in the morning."
+  },
+  {
+    "id": 19,
+    "category": "Prepositions of Time",
+    "question": "We go to school _______ Mondays.",
+    "options": ["in", "at", "on", "under"],
+    "answer": 2,
+    "explanation": "We use the preposition 'on' before specific days of the week."
+  },
+  {
+    "id": 20,
+    "category": "Plural Nouns",
+    "question": "Choose the correct plural form: I see three _______ in the park.",
+    "options": ["childs", "children", "childes", "childrens"],
+    "answer": 1,
+    "explanation": "The plural form of 'child' is an irregular noun: 'children'."
+  }
+]
