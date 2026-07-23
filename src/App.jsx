@@ -6,6 +6,7 @@ import commonData from './questions-Common.json';
 import mathsData from './questions-Maths.json';
 import chineseData from './questions-Chinese.json'; // 新增：中文科
 import engData from './questions-Eng.json';         // 新增：英文科
+import olpMathData from './questions-OlpMath.json'; // 新增：奧數科
 
 export default function QuizApp() {
   const [view, setView] = useState('home');
@@ -140,6 +141,14 @@ export default function QuizApp() {
           style={{ padding: '20px', fontSize: '18px', margin: 0 }}
         >
           📘 挑戰常識科
+        </button>
+
+        <button 
+          onClick={() => startQuiz(olpMathData, '奧數科')} 
+          className="btn-primary" 
+          style={{ padding: '20px', fontSize: '18px', backgroundColor: '#e83e8c', margin: 0 }}
+        >
+          🏆 挑戰奧數科
         </button>
       </div>
 
