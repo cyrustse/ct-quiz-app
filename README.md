@@ -1,5 +1,7 @@
 # 🌟 小二互動測驗挑戰 (Primary 2 Interactive Quiz App)
 
+👉 **[點擊這裡立即遊玩 (Live Demo)](https://cyrustse.github.io/ct-quiz-app/)** 🎮
+
 > **"學習不應局限於課室，而可以是一場好玩的闖關遊戲。"** 
 
 這是一個專為我女兒設計的輕量級互動測驗 Web 應用程式。目的是幫助她在課餘時間，透過她最喜歡的裝置（iPad、iPhone 或手提電腦），以遊戲和測驗的形式輕鬆溫習學校的知識。
