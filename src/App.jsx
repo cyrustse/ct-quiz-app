@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import './App.css'; 
 
-// 引入四個科目嘅題庫
+// 引入五個科目嘅題庫
 import commonData from './questions-Common.json';
 import mathsData from './questions-Maths.json';
-import chineseData from './questions-Chinese.json'; // 新增：中文科
-import engData from './questions-Eng.json';         // 新增：英文科
-import olpMathData from './questions-OlpMath.json'; // 新增：奧數科
+import chineseData from './questions-Chinese.json';
+import engData from './questions-Eng.json';
+import olpMathData from './questions-OlpMath.json'; // 奧數題庫
 
 export default function QuizApp() {
   const [view, setView] = useState('home');
@@ -104,57 +104,84 @@ export default function QuizApp() {
 
   // --- 渲染畫面 ---
 
-  const renderHome = () => (
-    <div className="quiz-container center-text">
-      <h1>小二互動測驗挑戰</h1>
-      <p>請選擇你想挑戰嘅科目，每次會隨機抽出 10 題！</p>
-      
-      {/* 依家有四個科目按鈕，我幫佢哋排靚少少 (Grid 排版) */}
-      <div style={{ margin: '30px 0', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '15px' }}>
-        <button 
-          onClick={() => startQuiz(chineseData, '中文科')} 
-          className="btn-primary" 
-          style={{ padding: '20px', fontSize: '18px', backgroundColor: '#dc3545', margin: 0 }}
-        >
-          📝 挑戰中文科
-        </button>
+  const renderHome = () => {
+    // 1. 計算今日完成咗邊幾科
+    const todayStr = new Date().toLocaleDateString('zh-HK');
+    const todaysRecords = history.filter(record => {
+       return new Date(record.id).toLocaleDateString('zh-HK') === todayStr;
+    });
+    
+    // 抽取出今日已經做過嘅科目名
+    const completedSubjects = [...new Set(todaysRecords.map(r => r.subject))];
+
+    // 2. 定義【每日任務】需要完成嘅核心科目 (已移除奧數科)
+    const DAILY_MISSION_SUBJECTS = [
+      { key: '中文科', label: '中文', icon: '📝' },
+      { key: '英文科', label: '英文', icon: '🔤' },
+      { key: '數學科', label: '數學', icon: '📐' },
+      { key: '常識科', label: '常識', icon: '📘' }
+    ];
+
+    // 3. 檢查係咪 4 科核心任務都已經完成 (.every 會檢查 DAILY_MISSION_SUBJECTS 入面每一科)
+    const isAllMissionsCompleted = DAILY_MISSION_SUBJECTS.every(sub => completedSubjects.includes(sub.key));
+
+    return (
+      <div className="quiz-container center-text">
+        <h1>小二互動測驗挑戰</h1>
         
-        <button 
-          onClick={() => startQuiz(engData, '英文科')} 
-          className="btn-primary" 
-          style={{ padding: '20px', fontSize: '18px', backgroundColor: '#6f42c1', margin: 0 }}
-        >
-          🔤 挑戰英文科
-        </button>
+        {/* --- 每日任務徽章區塊 --- */}
+        <div className="daily-mission-container">
+          <h3>🌟 今日學習任務</h3>
+          <div className="badge-grid">
+            {DAILY_MISSION_SUBJECTS.map(sub => {
+              const isCompleted = completedSubjects.includes(sub.key);
+              return (
+                <div key={sub.key} className={`badge-item ${isCompleted ? 'completed' : ''}`}>
+                  <span className="badge-icon">{sub.icon}</span>
+                  <span className="badge-label">{sub.label}</span>
+                  {isCompleted && <span className="badge-checkmark">✅</span>}
+                </div>
+              );
+            })}
+          </div>
+          {/* 當 4 科核心科都完成時顯示恭賀字句 */}
+          {isAllMissionsCompleted && (
+            <p style={{ color: '#d84315', fontWeight: 'bold', marginTop: '15px' }}>
+              🎉 太犀利喇！今日 4 科核心任務全部完成！ 🎉
+            </p>
+          )}
+        </div>
+        {/* ------------------------ */}
 
-        <button 
-          onClick={() => startQuiz(mathsData, '數學科')} 
-          className="btn-primary" 
-          style={{ padding: '20px', fontSize: '18px', backgroundColor: '#28a745', margin: 0 }}
-        >
-          📐 挑戰數學科
-        </button>
+        <p>請選擇你想挑戰嘅科目，每次會隨機抽出 10 題！</p>
+        
+        <div style={{ margin: '20px 0', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '15px' }}>
+          <button onClick={() => startQuiz(chineseData, '中文科')} className="btn-primary" style={{ padding: '20px', fontSize: '18px', backgroundColor: '#dc3545', margin: 0 }}>
+            📝 挑戰中文科
+          </button>
+          
+          <button onClick={() => startQuiz(engData, '英文科')} className="btn-primary" style={{ padding: '20px', fontSize: '18px', backgroundColor: '#6f42c1', margin: 0 }}>
+            🔤 挑戰英文科
+          </button>
 
-        <button 
-          onClick={() => startQuiz(commonData, '常識科')} 
-          className="btn-primary" 
-          style={{ padding: '20px', fontSize: '18px', margin: 0 }}
-        >
-          📘 挑戰常識科
-        </button>
+          <button onClick={() => startQuiz(mathsData, '數學科')} className="btn-primary" style={{ padding: '20px', fontSize: '18px', backgroundColor: '#28a745', margin: 0 }}>
+            📐 挑戰數學科
+          </button>
 
-        <button 
-          onClick={() => startQuiz(olpMathData, '奧數科')} 
-          className="btn-primary" 
-          style={{ padding: '20px', fontSize: '18px', backgroundColor: '#e83e8c', margin: 0 }}
-        >
-          🏆 挑戰奧數科
-        </button>
+          <button onClick={() => startQuiz(commonData, '常識科')} className="btn-primary" style={{ padding: '20px', fontSize: '18px', margin: 0 }}>
+            📘 挑戰常識科
+          </button>
+
+          {/* 奧數科按鈕保留，作為額外挑戰 */}
+          <button onClick={() => startQuiz(olpMathData, '奧數科')} className="btn-primary" style={{ padding: '20px', fontSize: '18px', backgroundColor: '#e83e8c', margin: 0, gridColumn: 'span 2' }}>
+            🏆 挑戰奧數科 (額外挑戰)
+          </button>
+        </div>
+
+        <button onClick={() => setView('history')} className="btn-secondary">查看歷史紀錄</button>
       </div>
-
-      <button onClick={() => setView('history')} className="btn-secondary">查看歷史紀錄</button>
-    </div>
-  );
+    );
+  };
 
   const renderHistory = () => (
     <div className="quiz-container">
