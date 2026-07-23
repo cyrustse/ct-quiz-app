@@ -38,6 +38,20 @@
 *   `questions-Maths.json` - 數學科
 *   `questions-Common.json` - 常識科
 
+
+## Data Source
+# English
+https://www.edb.gov.hk/attachment/en/curriculum-development/kla/eng-edu/Curriculum%20Document/ELE%20KLACG_2017.pdf 
+
+# 個人、社會及人文教育
+https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/pshe/PSHE_KLACG_P1-S6_Chi_2017.pdf
+
+# Maths
+https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/ma/curr/ME_KLACG_chi_2017_12_08.pdf
+
+# Chinese
+https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/curriculum-documents/CLEKLAG_2017_for_upload_final_R77.pdf 
+
 **JSON 題目格式範例：**
 ```json
 {
@@ -49,16 +63,3 @@
   "explanation": "5 × 6 = 30 塊。"
 }
 
-
-### Data Source
-## English
-https://www.edb.gov.hk/attachment/en/curriculum-development/kla/eng-edu/Curriculum%20Document/ELE%20KLACG_2017.pdf 
-
-## 個人、社會及人文教育
-https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/pshe/PSHE_KLACG_P1-S6_Chi_2017.pdf
-
-## Maths
-https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/ma/curr/ME_KLACG_chi_2017_12_08.pdf
-
-## Chinese
-https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/curriculum-documents/CLEKLAG_2017_for_upload_final_R77.pdf 
